@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "mand-mobile": "^2.5.13",
+    "stylus-loader": "^4.1.1",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0"
   },
