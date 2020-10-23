@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="guanli" unicode="&#59242;" d="M739.4 434.3H436.2v-75.8h303.2v75.8zM322.5 459.6c-34.9 0-63.2-28.3-63.2-63.2 0-34.9 28.3-63.2 63.2-63.2 34.9 0 63.2 28.3 63.2 63.2 0 34.9-28.3 63.2-63.2 63.2zM562.5 257.5H259.4v-75.8h303.1v75.8zM676.2 282.7c-34.9 0-63.2-28.3-63.2-63.2 0-34.9 28.3-63.2 63.2-63.2 34.9 0 63.2 28.3 63.2 63.2 0 34.9-28.3 63.2-63.2 63.2zM890.9 585.9H133.1v-75.8h757.8v75.8zM890.9 686.9v-606.3H133V686.9h757.9m0 101.1H133.1C77.2 788 32 742.7 32 686.9v-606.3c0-55.8 45.2-101.1 101.1-101.1H891c55.8 0 101.1 45.2 101.1 101.1V686.9C992 742.7 946.8 788 890.9 788z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>

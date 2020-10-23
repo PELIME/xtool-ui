@@ -1,0 +1,11 @@
+
+.xtool-menu{
+    background-color: brown;
+    margin: 10px;
+    border-radius: 5px;
+    background: white;
+}
+.xtool-menu .xtool-menu-item{
+    width: 25%;
+    display: inline-block;
+}

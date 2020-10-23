@@ -3,7 +3,8 @@ import App from './App.vue'
 import router from './router'
 import mandMobile from 'mand-mobile'
 import 'mand-mobile/lib/mand-mobile.css'
-
+import './assets/icon-lrt/iconfont.css'
+import './assets/css/style.css'
 Vue.config.productionTip = false
 Vue.use(mandMobile)
 

@@ -1,0 +1,16 @@
+{
+  "id": "2153814",
+  "name": "xtool",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3881883",
+      "name": "管理",
+      "font_class": "guanli",
+      "unicode": "e76a",
+      "unicode_decimal": 59242
+    }
+  ]
+}
