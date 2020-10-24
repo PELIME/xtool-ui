@@ -1,6 +1,15 @@
 <template>
   <div class="home">
     <div class="background-theme"></div>
+    <div class="xtool-home-header">
+      <div class="xtool-portrait">
+        <i class="xtool-icontouxiang"></i>
+      </div>
+      <div class="xtool-header-tools">
+        <i class="xtool-iconsaoyisao"></i>
+        <i class="xtool-iconxiaoxi"></i>
+      </div>
+    </div>
     <div class="content">
       <md-water-mark
         class="text-container"
@@ -27,7 +36,7 @@
         </div>
         <div class="xtool-menu">
           <div class="xtool-menu-item" v-for="item in menus" :key="item.name">
-            <div class="xtool-menu-item-box">
+            <div class="xtool-menu-item-box" @click="menuChange(item)">
               <div class="xtool-menu-item-icon">
                 <i :class="item.icon"></i>
               </div>
@@ -128,8 +137,7 @@ export default {
       this.$toast.info("点击菜单：" + index + "  当前" + prevIndex);
     },
     menuChange(item) {
-      console.log(item);
-      //this.$router.push(item.url);
+      this.$router.push(item.url);
     },
     //轮播图片方法
     setValue(id, value) {
@@ -159,7 +167,7 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
 .md-example-child-tab-bar-4 .custom-item {
   display: flex;
   flex-direction: column;
@@ -169,7 +177,7 @@ export default {
   flex: 1;
 }
 .md-example-child-tab-bar-4 .custom-item .text {
-  font-size: 20px;
+  font-size: 8px;
 }
 .labbar {
   position: absolute;
@@ -202,4 +210,14 @@ export default {
   background-color: #f5f4f4;
   z-index: -999;
 }
-</style>
+.md-tab-bar-item{
+  min-height: 60px !important;
+  color: white !important;
+}
+.md-tab-bar{
+  background-color: black !important;
+}
+.md-tab-bar-item.is-active{
+  color: red !important;
+}
+</style>>

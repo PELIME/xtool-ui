@@ -9,3 +9,21 @@
     width: 25%;
     display: inline-block;
 }
+.xtool-home-header{
+    height: 50px;
+    width: 100%;
+    background-color: #000000;
+}
+.xtool-portrait{
+    margin-left: 20px;
+    float: left;
+    margin-top: 5px;
+}
+.xtool-header-tools{
+    float: right;
+    margin-top: 9px;
+    margin-right: 10px;
+}
+.xtool-header-tools i{
+    margin: auto 5px;
+}
